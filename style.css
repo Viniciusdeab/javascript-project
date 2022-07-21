@@ -51,7 +51,12 @@
     padding: 1em;
     box-shadow: 1px 5px 5px #000000;
     margin: 0.5em;
+    transition: .3s;
+    cursor: pointer;
+}
 
+.lista__item:hover{
+    transform: scale(1.05);
 }
 
 .lista__texto{
@@ -64,8 +69,9 @@
 }
 
 
-.lista__link{
+.lista__link ion-icon{
     text-decoration: none;
+    color: black;
 }
 
 .lista__link-fechado{
