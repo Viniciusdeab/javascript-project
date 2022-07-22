@@ -1,5 +1,5 @@
 (() => {
-    const colors = ["green", "red", "rgba(133, 122, 200)", "#F15025"];
+    const colors = ["green", "red", "rgba(133, 122, 200)","rgba(100, 200, 300)", "#F15025", "#f0be39"];
     const btn = document.getElementById("btn");
     const color = document.querySelector(".color");
 
