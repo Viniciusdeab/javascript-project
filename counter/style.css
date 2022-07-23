@@ -122,11 +122,6 @@ p {
     h4{
         line-height: 1;
     }
-
-    #value{
-        font-size: 10rem;
-        font-weight: bold;
-    }
 }
 
 main {
