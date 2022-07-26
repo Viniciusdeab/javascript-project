@@ -66,3 +66,19 @@ function showPerson(person){
     info.textContent = item.text;
 }
 
+nextBtn.addEventListener("click", function(){
+    currentItem++;
+    if(currentItem > reviews.length - 1){
+        currentItem = 0;
+    }
+    showPerson(currentItem);
+});
+
+
+prevBtn.addEventListener("click", function(){
+    currentItem++;
+    if(currentItem < 0 ){
+        currentItem = reviews.length - 1;
+    }
+    showPerson(currentItem);
+});
