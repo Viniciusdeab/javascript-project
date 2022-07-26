@@ -76,9 +76,16 @@ nextBtn.addEventListener("click", function(){
 
 
 prevBtn.addEventListener("click", function(){
-    currentItem++;
+    currentItem--;
     if(currentItem < 0 ){
         currentItem = reviews.length - 1;
     }
+    showPerson(currentItem);
+});
+
+randomBtn.addEventListener("click", function (){
+    // console.log("hello");
+
+    currentItem = Math.floor(Math.random() * reviews.length);
     showPerson(currentItem);
 });
