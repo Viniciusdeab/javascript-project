@@ -233,6 +233,11 @@ nav{
 
     .links a{
         padding: 0;
+        margin: 0 0.5rem;
+    }
+
+    .links a:hover{
+        padding: 0;
         background: transparent;
     }
 
